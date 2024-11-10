@@ -1,0 +1,65 @@
+.nav-icon a i:hover{
+    color: rgb(100, 149, 237);
+    transform: scale(1.25);
+}
+#NavBar ul li a:hover{
+    color: #00a8e8;
+}
+.dropdown> .dropdown-menu{
+    border: none;
+    border-radius: 0;
+}
+.nav-icon{
+    gap: 25px;
+    
+}
+.c-item{
+    height: 580px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    
+}
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cardImg{
+    background-color: #EEEEEE ;
+}
+#learnLink{
+    text-decoration: none;
+    color: black;
+}
+#learnLink:hover{
+    color: grey;
+    text-decoration: underline;
+    
+}
+/* .nav-ficon{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+} */
+
+@media screen and (max-width:996px) {
+    #cardImg{
+        margin-bottom: 10px;
+    }
+ 
+}
